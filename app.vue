@@ -8,7 +8,7 @@ useHead({
 <template>
   <div class="root">
   <header>
-    <NuxtLink to="/"><img src="assets/logo.svg" alt="Logo"/></NuxtLink>
+    <NuxtLink to="/"><img src="/images/logo.svg" alt="Logo"/></NuxtLink>
     <div>
       <span><NuxtLink to="/whoami">$ whoami</NuxtLink></span>
       <span><NuxtLink to="/posts">myBlog();</NuxtLink></span>
