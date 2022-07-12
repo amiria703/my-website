@@ -1,9 +1,16 @@
 <template>
     <main>
+    <ClientOnly>
       <div>Hi!</div>
       <div>I am <span ref="typeWriter"></span>
         <Transition name="blink"><span v-if="typingStatus">_</span></Transition>
       </div>
+
+    <template #placeholder>
+      <div>Hi!</div>
+      <div>I am <span>amiria703.</span></div>
+    </template>
+    </ClientOnly>
     </main>
 </template>
 
@@ -14,16 +21,6 @@
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-/*
-  whoami blinking:
-*/
-const underscore = ref(false);
-
-function underscoreBlink() {
-  underscore.value = !underscore.value;
-}
-
-setInterval(underscoreBlink, 600);
 
 /*
   Main text blinking:
@@ -38,8 +35,6 @@ function typingBlink() {
     typingStatus.value = true;
   }
 }
-
-setInterval(typingBlink, 600);
 
 /*
   Typewriter functionality:
@@ -80,7 +75,14 @@ async function type() {
   }
   type();
 }
-type();
+
+/*
+  Do the thing :)
+*/
+onMounted(()=>{
+  setInterval(typingBlink, 600);
+  type();
+})
 </script>
 
 <style scoped>
