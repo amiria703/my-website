@@ -1,16 +1,9 @@
 <template>
     <main>
-    <ClientOnly>
-      <div>Hi!</div>
+    <div>Hi!</div>
       <div>I am <span ref="typeWriter"></span>
         <Transition name="blink"><span v-if="typingStatus">_</span></Transition>
       </div>
-
-    <template #placeholder>
-      <div>Hi!</div>
-      <div>I am <span>amiria703.</span></div>
-    </template>
-    </ClientOnly>
     </main>
 </template>
 
