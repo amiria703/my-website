@@ -13,6 +13,6 @@
 <style scoped>
 main {
   overflow-y: auto;
-  font-size: 1em;
+  font-size: 1rem;
 }
 </style>

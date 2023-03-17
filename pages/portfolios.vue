@@ -21,13 +21,16 @@
       <NuxtLink to="https://amiria703.ir"><img loading="lazy" src="/images/my-website-v3.png" alt="my-website-v3"></NuxtLink>
       <NuxtLink to="https://github.com/amiria703/my-website-v3">My Website V3</NuxtLink>
     </div>
-    <div>
-      <NuxtLink to="https://github.com/amiria703/the-holy-quran">The Holy Quran</NuxtLink>
-    </div>
   </main>
 </template>
 <style scoped lang="scss">
 main {
+  font-size: 1.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
   div {
     display: flex;
     flex-direction: column;

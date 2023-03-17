@@ -11,4 +11,7 @@
 div {
   margin-bottom: 30px;
 }
+main {
+  font-size: 1.2rem;
+}
 </style>
