@@ -50,6 +50,10 @@ body {
 
 .root {
   position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,8 +63,6 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   padding: 30px;
-  width: -webkit-fill-available;
-  height: -webkit-fill-available;
   overflow-y: auto;
   padding-top: 0;
 }
@@ -74,6 +76,10 @@ header {
   background: var(--background-color);
   margin-top: 30px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 header img {
@@ -85,10 +91,12 @@ header img {
 header div {
   display: flex;
   font-size: 0.6em;
+  flex-wrap: wrap;
 }
 
 header div > span {
-  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0.5rem;
 }
 
 a {
