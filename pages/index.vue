@@ -96,7 +96,7 @@ onMounted(()=>{
 
 main {
   word-break: break-all;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 </style>

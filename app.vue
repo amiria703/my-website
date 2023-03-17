@@ -83,14 +83,13 @@ header {
 }
 
 header img {
-  width: 3em;
-  height: 3em;
+  width: 2em;
   color: var(--text-color);
 }
 
 header div {
   display: flex;
-  font-size: 0.6em;
+  font-size: 1rem;
   flex-wrap: wrap;
 }
 
