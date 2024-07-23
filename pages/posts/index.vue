@@ -1,6 +1,6 @@
 <template>
   <main>
     <Title>Blog</Title>
-    Under contruction… :)
+    TBD
   </main>
 </template>

@@ -10,9 +10,7 @@ useHead({
   <header>
     <NuxtLink to="/"><img src="/images/logo.svg" alt="Logo"/></NuxtLink>
     <div>
-      <span><NuxtLink to="/whoami">$ whoami</NuxtLink></span>
-      <span><NuxtLink to="/posts">myBlog();</NuxtLink></span>
-      <span><NuxtLink to="/portfolios">portfolios;</NuxtLink></span>
+      <span><NuxtLink to="/posts">./MyBlog</NuxtLink></span>
       <span><NuxtLink to="/contact">ContactMe()</NuxtLink></span>
     </div>
   </header>

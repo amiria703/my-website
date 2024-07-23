@@ -32,7 +32,7 @@ function typingBlink() {
 /*
   Typewriter functionality:
 */
-const typeList = ref(["amiria703", "Amir Hossein Maher", "a Junior Web Developer", "a solo developer", "an open-source lover", "a programmer", "a Swiftie", "a music lover", "a student", "a lover", "a brother", "a boy"]);
+const typeList = ref(["Amiria", "Amir Hossein Maher", "a Web Developer", "a solo developer", "an open-source lover", "a programmer", "a music lover"]);
 const typeWriter = ref(null);
 
 async function typeWord(word) {
